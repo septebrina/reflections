@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    By using diff, we can easilty see difference in each line of both files.
+    That helps us to see any difference made, intentionally or unintentionally.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    By regularly looking at our own mistakes, we can fare better in the future
+    by not doing the same mistakes again.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    If I want to create a code, I might be better off with a commit. On the other
+    hand, if I only want to brainstorm ideas or making smple document, version
+    control is not needed. Word, for example has many features such as comment
+    which will help us emphasize something which might be left of. Creating commit
+    for that kind of documents looks to overqualified.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+   	Because, sometimes as programmer, we have to edit multiple files for example
+   	when adding features or fixing bugs. When we are working on Google Docs, for 
+   	example, we simply want to edit each file.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    By typing git log and git diff --file1 --file2 in GitBash
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Well, because we have a very powerful tool, think it about ctrl+z, we can be
+    very adventurous in changing any code. If our code breaks later, we can just
+    checkout to the previous commit before the bug was introduced.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Of course for my own code.
